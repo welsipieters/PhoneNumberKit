@@ -19,7 +19,7 @@ public class CountryCodePickerViewController: UITableViewController {
 
     var shouldRestoreNavigationBarToHidden = false
 
-    var hasCurrent = true
+    var hasCurrent = false
     var hasCommon = true
 
     lazy var allCountries = phoneNumberKit
